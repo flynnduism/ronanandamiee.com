@@ -1,0 +1,17 @@
+/* Ro & Amiee's Wedding  Website Styles 
+================================================================================
+  Site by Ronan Flynn   -   www.flynnduism.com  
+==============================================================================*/
+
+@media screen {
+
+	body	{  background: #fff url('floral.jpg') no-repeat right top; text-align: center; font:#643652 26px/1.333 'Swanky and Moo Moo', cursive; height:100%; position:relative; }
+	
+	h1, p		{ padding-right:42.5%;  }
+	
+	h1			{ display:block; color:#643652; text-transform: uppercase; margin:12.5% 0 0;  }
+	h1 em		{ display:block; font-style: normal; font-size: 0.75em; line-height:3; text-transform: lowercase;  }
+	
+	p			{ font: normal 14px/1 'Courier New', Courier, monospace; color:#777; margin-top: 60px; }
+
+}

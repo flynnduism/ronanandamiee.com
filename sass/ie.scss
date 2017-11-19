@@ -1,0 +1,27 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+.col 	{ display: block !important; padding-left:0 !important; padding-right:0 !important; border:none !important;  }
+
+.span_1 { width: 3.5% !important; }
+.span_2 { width: 12% !important; }
+.span_3 { width: 20.5% !important; }
+.span_4 { width: 29% !important; }
+.span_5 { width: 37.5% !important; }
+.span_6 { width: 46% !important; }
+.span_7 { width: 54.5% !important; }
+.span_8 { width: 63% !important; }
+.span_9 { width: 71.5% !important; }
+.span_10 { width: 80% !important; }
+.span_11 { width: 88.5% !important; }
+.span_12 { width: 97% !important; }
+
+nav 	{ width:600px; }
+
+#main .span_4			{ overflow: hidden; }
+#main .span_4 iframe	{ }
+
+footer .backtotop		{ margin-left: -5.5%; }

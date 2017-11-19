@@ -1,0 +1,17 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* AUTHOR */
+  Ronan Flynn
+  Site: http://flynnduism.com/
+  Twitter: @flynnduism
+  Location: Dublin, Ireland
+
+/* THANKS */
+  Names to Brian J. Bonislawsky, author of the Ribeye Marrow typeface, Alana Miller for the homepage photo and especially to Amiee E. Curran for saying 'yes'.
+
+/* SITE */
+  Standards: HTML5, SASS, CSS3
+  Components: Modernizr, jQuery, jQuery Tools, localScroll, Normalize, Gridpak, Google Web Fonts 
+  Software: Espresso, Photoshop, Illustrator, LiveReload

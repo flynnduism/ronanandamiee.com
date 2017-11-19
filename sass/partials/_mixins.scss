@@ -1,0 +1,86 @@
+// variables
+
+$green0		:		#f2f7eb;
+$green1		:		#9ab178;
+$green2		:		#c4dda2;
+$green3		:		#e3f4cd;
+
+$dgreen		:		#596353;
+
+$orange1	:		#ff5200;
+$orange2	:		#f68500;
+$orange3	:		#fc6734;
+
+$red		:		#ef4d00;
+
+$grey1		:		#222;
+$grey2		:		#4c4c4c;
+$grey3		:		#585858;
+$grey4		:		#777;
+
+
+// mixins
+
+@mixin sprite ($backposition:0 0) { background: url('../img/randa-sprite.png') no-repeat $backposition; }
+
+	// buttons
+	
+	@mixin btn {
+		@include sprite(0 -320px);
+		background-color: $green1;
+		color:#fff;
+		text-decoration:none;
+		display:inline-block;
+		font: 1.125em/44px $fam3;
+		letter-spacing: -0.0425em;
+		text-align:center;
+	}
+	
+	// effects
+	
+	@mixin trans {
+		transition: all 0.25s;
+		-moz-transition: all 0.25s;
+		-webkit-transition: all 0.25s;
+		-o-transition: all 0.25s;
+	}
+	
+	@mixin trans {
+		transition: all 0.25s;
+		-moz-transition: all 0.25s;
+		-webkit-transition: all 0.25s;
+		-o-transition: all 0.25s;
+	}
+	
+	@mixin transnone {
+		transition: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-o-transition: none !important;
+	}
+	
+	@mixin grayscale {
+	
+		filter: url(filters.svg#grayscale);
+	    filter: gray;
+	    -webkit-filter: grayscale(100%);
+	    -moz-filter: grayscale(100%);
+	}
+	
+	@mixin halfgrey {
+	
+		filter: url(filters.svg#grayscale);
+	    filter: gray;
+	    -webkit-filter: grayscale(12.5%);
+	}
+		
+	@mixin glow	{
+		text-shadow: 0px 3px 10px #ffffff;
+	}
+	
+	
+	@-webkit-keyframes rotate {
+	  0%	{ -webkit-transform: rotate(0deg) scale(1); }
+	  50%	{ -webkit-transform: rotate(18deg) scale(1.25); }
+	  100%	{ -webkit-transform: rotate(0deg) scale(1); }
+	}

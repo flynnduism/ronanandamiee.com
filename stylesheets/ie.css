@@ -1,0 +1,87 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 7, ../sass/ie.scss */
+.col {
+  display: block !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border: none !important;
+}
+
+/* line 9, ../sass/ie.scss */
+.span_1 {
+  width: 3.5% !important;
+}
+
+/* line 10, ../sass/ie.scss */
+.span_2 {
+  width: 12% !important;
+}
+
+/* line 11, ../sass/ie.scss */
+.span_3 {
+  width: 20.5% !important;
+}
+
+/* line 12, ../sass/ie.scss */
+.span_4 {
+  width: 29% !important;
+}
+
+/* line 13, ../sass/ie.scss */
+.span_5 {
+  width: 37.5% !important;
+}
+
+/* line 14, ../sass/ie.scss */
+.span_6 {
+  width: 46% !important;
+}
+
+/* line 15, ../sass/ie.scss */
+.span_7 {
+  width: 54.5% !important;
+}
+
+/* line 16, ../sass/ie.scss */
+.span_8 {
+  width: 63% !important;
+}
+
+/* line 17, ../sass/ie.scss */
+.span_9 {
+  width: 71.5% !important;
+}
+
+/* line 18, ../sass/ie.scss */
+.span_10 {
+  width: 80% !important;
+}
+
+/* line 19, ../sass/ie.scss */
+.span_11 {
+  width: 88.5% !important;
+}
+
+/* line 20, ../sass/ie.scss */
+.span_12 {
+  width: 97% !important;
+}
+
+/* line 22, ../sass/ie.scss */
+nav {
+  width: 600px;
+}
+
+/* line 24, ../sass/ie.scss */
+#main .span_4 {
+  overflow: hidden;
+}
+
+/* line 27, ../sass/ie.scss */
+footer .backtotop {
+  margin-left: -5.5%;
+}
